@@ -1,4 +1,4 @@
-const getFullResponseFromAPI = (success) => {
+export defaul getFullResponseFromAPI(success) {
   return new Promise((resolve, reject) => {
     if (success) {
       resolve({ status: 200, body: 'Success' });
@@ -7,5 +7,3 @@ const getFullResponseFromAPI = (success) => {
     }
   });
 };
-
-export default getFullResponseFromAPI;
