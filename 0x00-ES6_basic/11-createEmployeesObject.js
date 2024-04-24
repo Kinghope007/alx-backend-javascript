@@ -5,8 +5,7 @@
  * @returns {Object} - An object with department name and employees.
  */
 export default function createEmployeesObject(departmentName, employees) {
-  return {
-    [departmentName]: employees
-  };
+    return {
+	    [departmentName]: employees
+    };
 }
-

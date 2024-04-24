@@ -5,8 +5,8 @@
  * @returns {Array} - The modified array with the string appended to each value.
  */
 export default function appendToEachArrayValue(array, appendString) {
-  for (let i = 0; i < array.length; i++) {
-    array[i] = appendString + array[i];
+  for (let value in array) {
+    array[value] = appendString + array[value];
   }
 
   return array;
